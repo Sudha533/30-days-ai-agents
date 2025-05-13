@@ -69,7 +69,6 @@ class LiteLLMChatModel(BaseChatModel):
 
 
 # Now you can use LangChain's chat flow to interact with LiteLLM
-from langchain_core.messages import HumanMessage, SystemMessage
 
 chat = LiteLLMChatModel()
 
